@@ -1,10 +1,11 @@
 //#include <iostream>
 //using namespace std;
 //
+//
 ////class Date
 ////{
 ////public:
-////	//¹¹Ôìº¯Êı£¨ÍÆ¼öĞ´³ÉÈ«È±Ê¡µÄ¹¹Ôìº¯Êı£©
+////	//æ„é€ å‡½æ•°ï¼ˆæ¨èå†™æˆå…¨ç¼ºçœçš„æ„é€ å‡½æ•°ï¼‰
 ////	Date(int year = 0, int month = 1, int day = 1)
 ////	{
 ////		_year = year;
@@ -20,7 +21,7 @@
 ////	int _day;
 ////};
 ////
-//////ÉúÃüºÍ¶¨Òå²»ÔÚÒ»ÆğÊ±£¬ĞèÒª¼Ó ×÷ÓÃÓòÏŞ¶¨·û::
+//////ç”Ÿå‘½å’Œå®šä¹‰ä¸åœ¨ä¸€èµ·æ—¶ï¼Œéœ€è¦åŠ  ä½œç”¨åŸŸé™å®šç¬¦::
 ////void Date::Print()
 ////{
 ////	cout << _year << "-";
@@ -43,7 +44,7 @@
 //class Date
 //{
 //public:
-//	//¹¹Ôìº¯Êı£¨ÍÆ¼öĞ´³ÉÈ«È±Ê¡µÄ¹¹Ôìº¯Êı£©
+//	//æ„é€ å‡½æ•°ï¼ˆæ¨èå†™æˆå…¨ç¼ºçœçš„æ„é€ å‡½æ•°ï¼‰
 //	Date(int year = 0, int month = 1, int day = 1)
 //	{
 //		_year = year;
@@ -51,7 +52,7 @@
 //		_day = day;
 //	}
 //
-//	//¿½±´¹¹Ôìº¯Êı
+//	//æ‹·è´æ„é€ å‡½æ•°
 //	Date(const Date& d)
 //	{
 //		_year = d._year;
@@ -59,7 +60,7 @@
 //		_day = d._day;
 //	}
 //
-//	//ÔËËã·ûÖØÔØ
+//	//è¿ç®—ç¬¦é‡è½½
 //	bool operator>(const Date& d2)//operator>(Date* this, const Date& d2)
 //	{
 //		if (_year > d2._year)
@@ -109,7 +110,7 @@
 //	Date d1(2021, 4, 5);
 //	Date d2(d1);
 //	Date d3(2021, 4, 7);
-//	if (d1 > d3)	//µÈ¼ÛÓÚ  d1.operator>d3
+//	if (d1 > d3)	//ç­‰ä»·äº  d1.operator>d3
 //		cout << "True" << endl;
 //	else
 //		cout << "False" << endl;
