@@ -2,7 +2,7 @@
 
 namespace wqj
 {
-	template <class T, class Container>
+	template <class T, class Container = deque<T>>
 	class stack
 	{
 	public:
