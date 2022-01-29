@@ -174,6 +174,98 @@ using namespace std;
 //}
 
 
+//string func1(const string& s)
+//{
+//	//...
+//}
+
+//string func2(const string& s)
+//{
+//	string tmp;
+//	return tmp;
+//}
+//
+//int main()
+//{
+//	func2("func2");
+//	return 0;
+//}
+
+//class MyString
+//{
+//public:
+//	MyString(const char* str = "")
+//		:_size(strlen(str)),
+//		 _capacity(_size)
+//	{
+//		_str = new char[_capacity + 1];
+//		strcpy(_str, str);
+//	}
+//
+//	//MyString(const char* str = "")
+//	//{
+//	//	_size = strlen(str);
+//	//	_capacity = _size;
+//	//	char* tmp = new char[_capacity + 1];
+//	//	_str = tmp;
+//	//	strcpy(_str, str);
+//	//}
+//
+//	MyString(MyString&& s)
+//		:_str(nullptr),
+//		 _size(0),
+//		 _capacity(0)
+//	{
+//		this->MySwap(s);
+//	}
+//
+//	//MyString& operator=(MyString& s)
+//	//{
+//	//	this->MySwap(s);
+//	//	return *this;
+//	//}
+//
+//	void MySwap(MyString& s)
+//	{
+//		swap(_str, s._str);
+//		swap(_size, s._size);
+//		swap(_capacity, s._capacity);
+//	}
+//
+//public:
+//	char* _str;
+//	size_t _size;
+//	size_t _capacity;
+//};
+//
+//int main()
+//{
+//	MyString s = "123";
+//	MyString ret = std::move(s);
+//	printf("_str:%p\n_size:%d\n_capacity:%d\n", \
+//		s._str, s._size, s._capacity);
+//	return 0;
+//}
+
+
+//int main()
+//{
+//	int&& x = 10;
+//	
+//	return 0;
+//}
+
+
+
+//int main()
+//{
+//	int a = 10;
+//	int&& b = std::move(a);
+//	
+//	return 0;
+//}
+
+
 //仿函数、lamdba表达式
 class Goods
 {
